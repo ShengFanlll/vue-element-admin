@@ -137,6 +137,12 @@ const asyncRoutes = [
     },
     children: [
       {
+        path: 'count-price',
+        component: 'views/components-demo/count-price',
+        name: 'CountPriceDemo',
+        meta: { title: 'Count Price' }
+      },
+      {
         path: 'tinymce',
         component: 'views/components-demo/tinymce',
         name: 'TinymceDemo',

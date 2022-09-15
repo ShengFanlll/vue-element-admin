@@ -13,6 +13,12 @@ const componentsRouter = {
   },
   children: [
     {
+      path: 'count-price',
+      component: () => import('@/views/components-demo/count-price'),
+      name: 'CountPriceDemo',
+      meta: { title: 'Count Price' }
+    },
+    {
       path: 'tinymce',
       component: () => import('@/views/components-demo/tinymce'),
       name: 'TinymceDemo',
